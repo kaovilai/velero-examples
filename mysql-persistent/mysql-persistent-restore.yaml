@@ -2,7 +2,7 @@ apiVersion: velero.io/v1
 kind: Restore
 metadata:
   name: mysql-persistent
-  namespace: velero
+  namespace: oadp-operator-system
 spec:
   backupName: mysql-persistent
   excludedResources:

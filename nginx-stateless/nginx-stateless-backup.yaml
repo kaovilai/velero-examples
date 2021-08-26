@@ -4,10 +4,10 @@ metadata:
   name: nginx-stateless
   labels:
     velero.io/storage-location: default
-  namespace: velero
+  namespace: oadp-operator-system
 spec:
   hooks: {}
   includedNamespaces:
   - nginx-example
-  storageLocation: default
+  storageLocation: example-velero-1
   ttl: 720h0m0s

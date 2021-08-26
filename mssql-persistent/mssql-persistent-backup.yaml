@@ -4,7 +4,7 @@ metadata:
   name: mssql-persistent
   labels:
     velero.io/storage-location: default
-  namespace: velero
+  namespace: oadp-operator-system
 spec:
   hooks: {}
   includedNamespaces:
